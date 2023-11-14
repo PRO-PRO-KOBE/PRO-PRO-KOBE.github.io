@@ -1,0 +1,202 @@
+@import url(destyle.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&family=Oswald:wght@700&family=Roboto:ital,wght@0,900;1,400&family=Sriracha&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap');
+
+header h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: darkturquoise;
+    color: aliceblue;
+}
+
+.school-information h1 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    color: mediumturquoise;
+}
+
+.school-information h2 {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    color: deepskyblue;
+}
+
+.school-information p {
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+}
+
+.my-information img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-information h1 {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    color: mediumturquoise;
+}
+
+.my-information h2 {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    color: deepskyblue;
+}
+
+.my-information p {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+}
+
+.contact {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+}
+
+.contact p {
+    padding-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+}
+
+.contact h1 {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    color: mediumturquoise;
+}
+
+.contact-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-item,
+.contact-body {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-item {
+  text-align: left; /* テキスト左寄せ */
+  width: 30%; /* 横幅30%指定（グレーの背景色部分） */
+  background-color: #eee; /* グレーの背景色 */
+}
+
+.contact-body {
+  width: 70%; /* 横幅70%指定（白背景色部分） */
+}
+
+.form-text {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+}
+
+.contact-sex + .contact-sex {
+    margin-left: 10px;
+}
+  
+.contact-sex-txt {
+    margin-left: 5px;
+}
+
+.form-select {
+    width: 180px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.contact-submit {
+    width: 250px; /* 横幅指定 */
+    background-color: #333; /* 背景色 */
+    color: #fff; /* 文字色 */
+    font-weight: bold; /* 文字の太さ */
+    display: block; /* インライン要素をブロック要素に変更 */
+    margin: 0 auto; /* 中央寄せ */
+    font-size: 16px; /* 文字の大きさ */
+    padding: 15px; /* 内側の余白 */
+    border-radius: 100vh; /* 角丸指定 */
+    border: none;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+::marker {
+    line-height: 0.5cm;
+    font-size: 40px;
+    color: aqua;
+}
+
+li {
+    padding-left: 40px;
+    list-style-type: square;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+li span {
+    vertical-align: 0.6em;
+}
+
+@media only screen and (min-width: 768px) {
+    .my-information img {
+        float: left;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+}
